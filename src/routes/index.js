@@ -13,4 +13,12 @@ router.get('/about', (req,res) => {
   res.render('about.html', {title: 'About Biosafety'});
 })
 
+router.get('/services', (req,res) => {
+  res.render('services.html', {title: 'What we do'});
+})
+
+router.get('/opportunities', (req,res) => {
+  res.render('opportunities.html', {title: 'Opportunities'});
+})
+
 module.exports = router;
