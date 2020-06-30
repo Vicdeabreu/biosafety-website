@@ -8,6 +8,10 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 
+// Form
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
+
 // Middlewares
 app.use(require('./routes/index'));
 

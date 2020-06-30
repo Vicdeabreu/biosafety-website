@@ -108,3 +108,9 @@ li {
   margin-bottom: 10vh;
   padding: 0.5rem 2rem;
 }
+
+/* INICIO DE LA SECCIÓN SUCCESS */
+
+.success-message {
+  margin-top: 40vh;
+}
